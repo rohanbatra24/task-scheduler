@@ -1,0 +1,80 @@
+.slot {
+	height: 60px;
+	width: 150px;
+	background-color: aliceblue;
+	border-bottom: .1rem groove grey;
+}
+
+label {
+	color: indigo;
+	margin-top: 1rem;
+}
+
+.warning {
+	border: .1rem solid red;
+	padding: .3rem;
+}
+
+.time {
+	margin-top: 1.4rem;
+	display: flex;
+	flex-direction: column;
+}
+
+span {
+	height: 60px;
+	width: 150px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	font-size: 20px !important;
+}
+
+.btn-info {
+	height: 2.5rem;
+	padding: 0;
+	width: 12rem;
+}
+
+header {
+	max-width: 76rem;
+	align-items: center;
+}
+
+.fa-plus {
+	color: cadetblue;
+	font-size: large;
+	cursor: pointer;
+	margin-left: 4rem;
+	margin-top: 1.5rem;
+}
+
+.fa-pencil-square-o {
+	color: black;
+	cursor: pointer;
+}
+
+.fa-trash {
+	color: red;
+	cursor: pointer;
+}
+
+.booking-details {
+	width: max-content;
+	font-size: .61rem;
+}
+
+p {
+	margin: 0 !important;
+}
+
+.booking-details-container {
+	background-color: white;
+}
+
+.btn-new-apt {
+	height: fit-content;
+}
