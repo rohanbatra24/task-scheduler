@@ -14,7 +14,7 @@ export default function NewBookingModal(props) {
 	const [ task, setTask ] = useState('Pick Up');
 	const [ duration, setDuration ] = useState(1);
 	const [ location, setLocation ] = useState('Warehouse');
-	const [ time, setTime ] = useState('1 pm');
+	const [ time, setTime ] = useState('3 am');
 	const [ week, setWeek ] = useState(1);
 	const [ day, setDay ] = useState('Monday');
 	const [ driver, setDriver ] = useState('Bob');
